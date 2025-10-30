@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", "Noto Sans Thai", sans-serif;
+  background: linear-gradient(90deg, #2e8b57, #c7e740);
+}
+
+/* Navbar */
+.navbar {
+  position: absolute;
+  top: 10px;
+  left: 40px;
+  font-weight: bold;
+}
+.navbar span {
+  color: #fff;
+  font-size: 24px;
+}
+.navbar a {
+  color: #f5c518;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+/* โครงหลัก */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 0 80px;
+  color: #fff;
+}
+
+/* โลโก้ฝั่งซ้าย */
+.logo-section {
+  text-align: center;
+  max-width: 50px;
+}
+.logo {
+  background-color: #256c3e;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 20px;
+}
+.logo svg {
+  width: 90px;
+  height: 90px;
+  fill: #f5c518;
+}
+.tagline {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* กล่อง Register */
+.register-box {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 40px 50px;
+  text-align: center;
+  width: 320px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+.register-box h2 {
+  color: #f5c518;
+  margin-bottom: 20px;
+}
+.register-box input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 25px;
+  background-color: #f5c518;
+  color: #333;
+  text-align: center;
+  font-size: 15px;
+  outline: none;
+}
+.register-box button {
+  margin-top: 10px;
+  padding: 10px 30px;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.register-box button:hover {
+  background-color: #3d8b3d;
+}
